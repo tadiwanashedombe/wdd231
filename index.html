@@ -4,18 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hello wdd231</title>
 
-    <meta name="description" content="wertyuiop">
+    <title>Tadiwanashe Dombe</title>
+
+    <meta name="description" content="Tadiwanashe Dombe  student at BYU-Idaho learning web development.">
     <meta name="author" content="Tadiwanashe Dombe">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/small.css">
+
+    <script src="scripts/courses.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
 
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <img src="" alt="">
+        <span>Tadiwanashe S. Dombe</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Chamber</a></li>
+                <li><a href="">Final</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
+        <h1>Home</h1>
+        <section>
+            <h2>About me</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, odit necessitatibus? Debitis, maiores
+                maxime libero praesentium vero numquam ipsum esse eos? Nobis ipsam magni tenetur maxime necessitatibus
+                minus rerum repudiandae rem ipsa quibusdam blanditiis, eius unde non praesentium hic iste sunt amet
+                cupiditate labore. Dignissimos, vitae!`
+
+            </p>
+        </section>
+        
+        <section>
+            <h2>Student Photo</h2>
+            <img src="images/profile.jpg" alt="Tadiwanashe Dombe Photo" loading="lazy">
+        </section>
+
+        <section>
+            <h2>Web Certificate Courses</h2>
+            <span class="category">
+                <button id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
+            </span> 
+            <div class="courses">
+
+            </div>
+            
+            <p class="total-credit"></p> 
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+       <div class="social-links">
+            <a href="https://www.linkedin.com/in/dombe">
+                
+                <img src="images/linkedin.svg" alt="Linkedin icon">
+            </a>
+            <a href="https://github.com/tadiwanashedombe">
+                <img src="images/github.svg" alt="Github icon">
+            </a>
+            
+            <a href="https://www.whatsapp.com/">
+                <img src="images/whatsapp.svg" alt="Whatsapp icon">
+            </a>
+       </div> 
+       <div class="footer-details">
+            &copy;<span id="currentYear"></span> &bull; Tadiwanashe S. Dombe &bull; Zimbabwe
+            <span id="lastModified"></span>
+       </div>
+    </footer>
 </body>
 
-</html>
+</html
