@@ -51,11 +51,23 @@
         grid-column: 1/2;
     }
 
-    .profile-photo{
+    .profile-photo {
         grid-column: 2/3;
     }
 
     .courses {
         grid-column: 1/3;
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    #courses {
+        justify-content: flex-start;
+    }
+
+    .course-card {
+        width: 8rem;
+
     }
 }
