@@ -61,6 +61,9 @@ header img {
     flex-direction: column;
     gap: 5px;
     transition: all 0.3s;
+    position: absolute;
+    top: 22px;
+    right:7px;
 }
 
 .hamburger:hover {
@@ -187,10 +190,10 @@ section span {
 
 .category {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     padding: 1rem .3rem;
     gap: 10px;
-    flex-wrap: wrap;
+    align-items: center;
 }
 
 .category button {
