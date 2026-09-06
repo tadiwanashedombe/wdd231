@@ -8,8 +8,6 @@
     --white: #ffffff;
     --light-bg: #dcdddd;
     --shadow-color: #2f343c;
-    --completed-bg: #27ae60;
-    --completed-text: #ffffff;
 }
 
 * {
@@ -246,11 +244,8 @@ section span {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-.course-card.completed {
-    background-color: var(--completed-bg);
-    color: var(--completed-text);
-    border-color: #1e8449;
-    box-shadow: 0 2px 4px rgba(39, 174, 96, 0.3);
+.course-card.completed:after {
+    content: " \2714";
 }
 
 #total-credit {
