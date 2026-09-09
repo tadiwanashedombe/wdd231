@@ -26,7 +26,7 @@ const displayProphets = (prophets) => {
         portrait.setAttribute("alt",`Portrait of ${prophet.name} ${prophet.lastname}`);
         portrait.setAttribute("loading","lazy");
         portrait.setAttribute("width","180");
-        portrait.setAttribute("height","180");
+        portrait.setAttribute("height","240");
 
 
         card.appendChild(fullName);
