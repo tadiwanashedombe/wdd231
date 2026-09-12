@@ -19,12 +19,6 @@ header {
     padding-bottom: .7rem;
     font-family: sans-serif;
 }
-h1{
-  font-family: "Caacupe One", sans-serif;
-  font-weight: 400;
-   font-size: 1.6rem;
-   color: white;
-}
 .hamburger {
     display: none;
 }
@@ -50,7 +44,7 @@ nav li a {
 nav a:hover {
     border-radius: 5px;
     background-color: rgb(105, 105, 154);
-
+    
 }
 
 .navigation.open {
@@ -64,12 +58,14 @@ nav a:hover {
 
 .logo img {
     border-radius: 50%;
-
+    
 }
 
-.logo p {
-    font-size: larger;
-    font-weight: bold;
+.logo span{
+  font-family: "Caacupe One", sans-serif;
+  font-weight: 400;
+   font-size: 1.6rem;
+   color: white;
 }
 
 main {
