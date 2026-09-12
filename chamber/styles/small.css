@@ -1,0 +1,70 @@
+@media only screen and (max-width:520px) {
+    .hamburger {
+        background-color: rgb(49, 49, 72);
+        border-radius: 5px;
+        padding: 8px 10px;
+        cursor: pointer;
+        display: flex;
+        position: absolute;
+        top: 10px;
+        right: 7px;
+        color: white;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    nav ul {
+        background-color: rgb(49, 49, 72);
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 84px;
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    nav a:hover {
+        display: block;
+        border-radius: 0;
+
+    }
+
+
+    .hamburger::after {
+        content: "\2630";
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    footer span {
+        margin-bottom: .2rem;
+    }
+
+    .center-footer {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width:770px) {
+    .center-footer img {
+        height: 40px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:1490px) {
+    main {
+        margin: 0 7rem;
+    }
+}
