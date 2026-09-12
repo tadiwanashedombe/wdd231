@@ -59,6 +59,7 @@ nav a:hover {
 
 .logo img {
     border-radius: 50%;
+
 }
 
 .logo p {
@@ -85,9 +86,45 @@ main {
 
 .members {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    padding: .3rem 0;
 }
 
+section {
+    background-color: #bababa5b;
+    padding: .3rem .9rem;
+    border-radius: 3px;
+}
+
+section h2,
+section p {
+    text-align: center;
+}
+
+.details {
+    margin-top: .4rem;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+
+}
+
+.details img {
+    object-fit: cover;
+    width: 100%;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact p{
+    display: flex;
+    text-align: left;
+    margin-left: .2rem;
+    padding-left: .2rem;
+    padding-bottom: .4rem;
+}
 
 footer {
     background-color: rgb(49, 49, 72);
