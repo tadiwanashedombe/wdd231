@@ -32,6 +32,8 @@ function displayMembers(members){
         details.setAttribute('class', "details");
         contact.setAttribute("class","contact");
 
+
+        tagLine.setAttribute('class',"tagline");
         addresss.innerHTML = `<b>Address:</b> ${member.address}`;
         phone.innerHTML = `<b>Phone:</b> ${member.phone}`;
         url.innerHTML = `<b>Website:</b> <a href="${member.website}">Visit ${member.name}<a/>`;

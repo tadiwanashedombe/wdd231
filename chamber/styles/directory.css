@@ -85,12 +85,41 @@ main {
     font-size: 1.1rem;
 }
 
-.members {
+.grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 1rem;
     padding: .3rem 0;
 }
+.list{
+    display: flex;
+    flex-direction: column;
+    padding: .3rem 0;
+    justify-self: center;
+}
+.list section{
+    display: grid;
+    margin: .4rem 0;
+    grid-template-columns: 1fr 3fr ;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 580px;
+}
+
+.list section h2{
+    text-align: left;
+}
+.list section .details{
+    display: flex;
+    justify-content: flex-start;
+}
+.list section h2{
+    display: block;
+}
+.list section img, .list .tagline{
+    display: none;
+}
+
 
 section {
     background-color: #bababa5b;
