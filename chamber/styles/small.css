@@ -1,4 +1,4 @@
-@media only screen and (max-width:520px) {
+@media only screen and (max-width:529px) {
     .hamburger {
         background-color: rgb(49, 49, 72);
         border-radius: 5px;
@@ -55,14 +55,6 @@
         flex-direction: row;
     }
 }
-
-@media only screen and (max-width:770px) {
-    .center-footer img {
-        height: 40px;
-        width: 40%;
-    }
-}
-
 @media only screen and (min-width:1490px) {
     main {
         margin: 0 auto;
