@@ -140,4 +140,5 @@ footer {
 
 footer p {
     margin-bottom: .1rem;
+    white-space: nowrap;
 }
