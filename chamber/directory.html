@@ -16,15 +16,54 @@
     <meta property="og:description" content="This is the Directory of Chitungwiza Chamber of Commerce featuring the businesses involves in the movement of this Chamber of Commerce">
     <meta property="og:image" content="https://tadiwanashedombe.github.io/wdd231/chamber/images/logo.webp">
     <meta property="og:url" content="https://tadiwanashedombe.github.io/wdd231/chamber/directory.html">
-    <link rel="stylesheet" href="styles/style.css">
-    <script src="scripts/app.js" defer></script>
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/directory.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <span class="logo">
+            <img src="images/logo.webp" alt="Chitungwiza Chammber of commerce logo" width="70" height="70">
+            <p>Chitungwiza Chamber of Commerce</p>
+        </span>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
     </main>
-    <footer></footer>
+    <footer>
+        <span class="left-footer">
+            <p>
+                <b>Chitungwiza  Chamber of Commerce</b>            
+            </p>
+            <p>Chitungwiza, Zengeza 2</p>
+            <p>Sifra Village, Shop 37</p>
+            <p>info@cchamber.org</p>
+            <p>+263 78 987 8793</p>
+        </span>
+        <span class="center-footer">
+            <a href="#"><img src="images/youtube.svg" alt="Youtube icon" width="50" height="50"></a>
+            <a href="#"><img src="images/twitter.svg" alt="Twitter icon" width="50" height="50"></a>
+            <a href="#"><img src="images/linkedin.svg" alt="linkedin icon"  width="50" height="50"></a>
+        </span>
+        <span class="right-footer">
+            <p>WDD231 Class Project</p>
+            <p>Tadiwanashe Dombe</p>
+            <p id="currentyear"></p>
+            <p id="lastModified"></p>
+        </span>
+    </footer>
 </body>
 
 </html>
