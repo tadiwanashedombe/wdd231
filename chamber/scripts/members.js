@@ -26,7 +26,7 @@ function displayMembers(members){
         image.setAttribute("src",member.image);
         image.setAttribute("alt",`image of  ${member.name}`);
         image.setAttribute("loading","lazy");
-        image.setAttribute("width","100");
+        image.setAttribute("width","137");
         image.setAttribute("height","90");
 
         details.setAttribute('class', "details");
@@ -34,7 +34,7 @@ function displayMembers(members){
 
         addresss.innerHTML = `<b>Address:</b> ${member.address}`;
         phone.innerHTML = `<b>Phone:</b> ${member.phone}`;
-        url.innerHTML = `<b>Website:</b> <a href="${member.website}">Click here<a/>`;
+        url.innerHTML = `<b>Website:</b> <a href="${member.website}">Visit ${member.name}<a/>`;
         
         card.appendChild(bussinesName);
         card.appendChild(tagLine);

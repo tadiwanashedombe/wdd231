@@ -5,7 +5,7 @@
             "address": "242 Guzha Chikwanha",
             "phone": "0777 444 6001",
             "website":"grill.com",
-            "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl8lm8kK-PysZ2RArXKlv_GxEARzKkrRNniqSqHpBQMfmYOvOYQdfK-7G2P_s2aqrtO2ejZyCLzcflHy74vJcuhdfcEslq1-_JWRtQaMY0EIkYDcYR8OETRHwxmDgTPAE5I9vaV8A=w408-h451-k-no",
+            "image": "images/blueroof.webp",
             "membership": "Member",
             "tagline": "Why Not Just Grill it 🤷 "
         },
@@ -14,7 +14,7 @@
             "address": "61 Samora Machel Ave, Harare",
             "phone": "077 843 9881",
             "website": "suits.com",
-            "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk0r41KvCwVOe8dbTVibUSZ9920EoDd4w9HMFfezcpDojbrdXA-9gpTGYWkffTE3D8sYvM8v8krvP7I-gR4nmsLMeNlnOoR2WphD3KVXBCc3tzpl0H5aDaWCatH0PQqnjBduSwC=w408-h307-k-no",
+            "image": "images/suits.webp",
             "membership": "Silver",
             "tagline": "The Only Formal Way"
         },
@@ -23,7 +23,7 @@
             "address": "1 Wynne street corner, South Ave, Harare",
             "phone": "(024) 225 1162",
             "website": "http://www.farmandcity.co.zw/,",
-            "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlNjiwaJZsiMFJZoVuRYzrXW_VaUuDyq4_nzykzjw8a9CiU-EdkzAS8V3vXZTe4fUsobMVzNGCH2uHLMuGDxurFllmaAITSAe7zhecC1C8IOhMhxxRHCzksy20Macio0Sxax7Ase-ISlnWe=w408-h544-k-no",
+            "image": "images/farm.webp",
             "membership": "Silver",
             "tagline": "We Produce You Buy"
         },
@@ -32,7 +32,7 @@
             "address": "X3RH+4XC, Chitungwiza Rd",
             "phone": "077 773 3334",
             "website": "N/A",
-            "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlhC-PcZRWSwap4nohk1Jes5v_KZ52ytK4_c89RkaDjj4GigUyiTPiuzsSbgZvhki6erkSpzRSQhqRyQEqpYSLkgkgc4TH5H-OuaejE20IWUii2LGfhRLUDx7fYmZPhr1VJco8WzwA_zxfv=w408-h306-k-no",
+            "image": "images/chitungwiza.webp",
             "membership": "Silver",
             "tagline": "The Shop"
         },
@@ -40,8 +40,8 @@
             "name": "Joina City",
             "address": "Corner Julius Nyerere, & Jason Moyo Ave, Harare",
             "phone": "98767899876",
-            "website": "https://www.joinacity.co.zw/",
-            "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmRGlpdUhIBpuZroL4quvdNygCOUOlR4AHR_CyWYaajzJXs2cM1mfnTeF9jsCru23svBFLY9vhcA-_nD0icrt6gqOcoJq2l8egiLI0CPNneBjQR5N2P1K2PLAoRAE0enkhrS0VXKQ=w408-h513-k-no",
+            "website":"joinacity.com",
+            "image": "images/joina.webp",
             "membership": "Gold",
             "tagline": "You Are Welcome"
         },
@@ -50,7 +50,7 @@
             "address": "Cnr Chiremba Rd, & Glenara Ave,Harare",
             "phone": "09876493972",
             "website": "https://www.kfc.co.zw/",
-            "image": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm85hnLVD9iaiy-E00DxDbkADTTDbrbYM3Jla1FXsr6wtEwYe3SHTG-VKnOZ-WhfOuDLMzF6p7F6Due1sU4NqvWNCwxvCei1UtTtf7Jr89zVxfjlLKogwut-aWPavj9oTjlWPV_=w408-h306-k-no",
+            "image": "images/kfc.webp",
             "membership": "Silver",
             "tagline": "Finger Lickin' Good"
         },
@@ -59,7 +59,7 @@
             "address": "46 Robson Manyika Office A3",
             "phone": "0779887431",
             "website": "N/a",
-            "image": " https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn2du3A5dpLyYcnUZUiQ6vPPR4Do0Iittf-vNTfhWZztRLQrOcXNzvQq6MgYXTLFnHPPNBb46dyLH2OT2-b1XMBEmpfs8bFqzL7aXCXbSKbqScUDRHqjtfYr3XHX0hZIfZOYiIc=w408-h306-k-no",
+            "image": "images/mall.webp",
             "membership": "Member",
             "tagline": "You One Stop Beauty Therapy"
         }
