@@ -65,6 +65,8 @@
 
 @media only screen and (min-width:1490px) {
     main {
-        margin: 0 7rem;
+        margin: 0 auto;
+        background-color: rgba(49, 49, 72, 0.061);
+        width: 90%;
     }
 }
