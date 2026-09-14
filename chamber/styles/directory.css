@@ -167,6 +167,12 @@ footer {
     justify-content: space-between;
     padding: .5rem .3rem;
 }
+.center-footer {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 40%;
+    }
 footer span{
     display: flex;
     flex-direction: column;
