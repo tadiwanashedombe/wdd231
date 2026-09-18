@@ -77,6 +77,14 @@
     .time{
         font-size: smaller;
     }
+
+    #weather{
+        grid-template-columns: 1fr;
+    }
+    .current{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media only screen and (min-width:1490px) {
@@ -88,5 +96,12 @@
 
     .logo h1 {
         font-size: 3.6rem;
+    }
+    #weather{
+        display: flex;
+    }
+    .forecast{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
     }
 }

@@ -52,7 +52,9 @@ export function getDailyForecast(forecastData, days = 3) {
 
 export function displayForecastWeather(daily) {
     const forecastContainer = document.querySelector('#weather');
+    
     const forecast = document.createElement('span');
+    forecast.setAttribute("class","forecast");
     
     daily.forEach(day => {
 
