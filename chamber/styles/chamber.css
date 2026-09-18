@@ -89,6 +89,7 @@ main {
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: center;
     gap: 1rem;
     padding: .3rem 0;
 }
@@ -124,11 +125,11 @@ main {
     display: none;
 }
 
-
-section {
+.card{
     background-color: #bababa5b;
     padding: .3rem .9rem;
     border-radius: 3px;
+    max-width: 25rem;
 }
 
 section h2,

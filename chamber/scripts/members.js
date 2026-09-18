@@ -11,6 +11,7 @@ async function getMembersData() {
 function displayMembers(members){
     members.forEach(member => {
         const card = document.createElement('section');
+        card.setAttribute("class","card")
         const bussinesName = document.createElement('h2');
         const tagLine = document.createElement('p');
         const image = document.createElement('img');
