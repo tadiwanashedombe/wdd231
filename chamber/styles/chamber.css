@@ -66,6 +66,7 @@ nav a:hover {
     font-weight: 400;
     font-size: 1.6rem;
     color: black;
+    font-display: swap;
 
 }
 
@@ -122,6 +123,7 @@ main {
 .list {
     display: grid;
     align-items: center;
+    justify-content: center;
 }
 
 .list img {
@@ -134,6 +136,7 @@ main {
 
 .list .card {
     display: grid;
+    max-width: 670px;
 }
 
 .list .contact{
