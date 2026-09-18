@@ -9,9 +9,8 @@ export async function getCurrentWeather() {
         const response = await fetch(url);
         if (response.ok){
             const data = await response.json();
-            console.log(data);
 
-            displayCurrentWaether(data);
+            displayCurrentWeather(data);
         }else{
             throw Error(await response.text());
         }
@@ -21,7 +20,7 @@ export async function getCurrentWeather() {
     }
 }
 
-export function displayCurrentWaether(data){
+export function displayCurrentWeather(data){
     
     const temp = `${data.main.temp}&deg;F`;
     
@@ -34,9 +33,9 @@ export function displayCurrentWaether(data){
     const tempDescription = document.querySelector(".current-description");
     tempDescription.innerHTML =  `${temp} - ${description}`;
 
-    const high = document.querySelector("#temp-high");
+    const high = document.querySelector(".temp-high");
     high.innerHTML = `<b>High:</b> ${data.main.temp_max}&deg;F`;
 
-    const low = document.querySelector("#temp-low");
+    const low = document.querySelector(".temp-low");
     low.innerHTML = `<b>Low:</b> ${data.main.temp_min}&deg;F`;
 }
