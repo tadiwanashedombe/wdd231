@@ -55,11 +55,19 @@
         flex-direction: row;
         width: 100%;
     }
+    .hero img{
+        height: 10rem;
+    }
 }
+
 @media only screen and (min-width:1490px) {
     main {
         margin: 0 auto;
         background-color: rgba(49, 49, 72, 0.061);
         width: 90%;
+    }
+
+    .logo h1 {
+        font-size: 3.6rem;
     }
 }

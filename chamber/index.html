@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Chitungwiza Chamber of Commerce | Directory</title>
+    <title>Chitungwiza Chamber of Commerce | Home</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,12 +14,12 @@
     <link rel="icon" href="favicon.ico">
 
     <meta name="description"
-        content="This page provides a list of local business and other organization that belong to the chamber of commerce">
+        content="This page provides some information about the chamber of commerce and the weather conditions and some CTAs">
     <meta name="author" content="Tadiwanashe Dombe">
 
-    <meta property="og:title" content="Chitungwiza Chamber of Commerce Directory">
+    <meta property="og:title" content="Chitungwiza Chamber of Commerce Home">
     <meta property="og:description"
-        content="This is the Directory of Chitungwiza Chamber of Commerce featuring the businesses involves in the movement of this Chamber of Commerce">
+        content="This is the Home page of Chitungwiza Chamber of Commerce featuring the businesses involves in the movement of this Chamber of Commerce">
     <meta property="og:image" content="https://tadiwanashedombe.github.io/wdd231/chamber/images/logo.webp">
     <meta property="og:url" content="https://tadiwanashedombe.github.io/wdd231/chamber/directory.html">
 
@@ -30,8 +30,6 @@
 
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/dates.js" defer></script>
-    <script src="scripts/members.js" defer></script>
-    <script src="scripts/view.js" defer></script>
 </head>
 
 <body>
@@ -40,28 +38,51 @@
             <img src="images/logo.webp" alt="Chitungwiza Chammber of commerce logo" width="70" height="70">
             <h1>
                 Chitungwiza Chamber of Commerce
-            </span>
+            </h1>
         </div>
         <button id="nav-button" class="hamburger" aria-label="navigation"></button>
 
         <nav class="navigation">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="discover.html">Discover</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <span class="view">
-            <button id="grid-view">Grid</button>
-            <button id="list-view">List</button>
-        </span>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 600px)" srcset="images/hero-large.webp">
+                <img src="images/hero.webp" alt="Chitungwiza Chamber of Commmerce Banner" width="1000" height="780"
+                    fetchpriority="high">
+            </picture>
 
-        <div class="members list">
-
+            <div class="cta">
+                <span class="cta-statement">This is the new movement of commerce</span>
+                <a href="join.html" class="cta-join">
+                    <button class="cta-btn">Join us</button>
+                </a>
+            </div>
         </div>
+        <section>
+            <h2>Events</h2>
+            <div class="event">
+                <span class="date">28 Sept</span>
+                <span class="name">2nd Anniversary</span>
+                <span class="location"><img src="images/location.svg" alt="location icon" width="20" height="20"></span>
+                <span class="time"></span>
+            </div>
+        </section>
+        <section>
+            <h2></h2>
+            <span></span>
+        </section>
+        <section>
+            <h2></h2>
+            <span></span>
+        </section>
     </main>
     <footer>
         <span class="left-footer">
@@ -81,7 +102,7 @@
 
             <a href="#"><img src="images/linkedin.svg" alt="linkedin icon" width="50" height="50"></a>
         </span>
-        
+
         <span class="right-footer">
             <span>WDD231 Class Project</span>
             <span>Tadiwanashe Dombe</span>
