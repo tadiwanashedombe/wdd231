@@ -14,10 +14,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: #ffffff;
     background-color: rgb(49, 49, 72);
     padding-bottom: .7rem;
     font-family: sans-serif;
+}
+h1{
+    color: #ffffff;
+
 }
 .hamburger {
     display: none;
@@ -108,13 +112,11 @@ main {
 
 .list section h2{
     text-align: left;
+    display: block;
 }
 .list section .details{
     display: flex;
     justify-content: flex-start;
-}
-.list section h2{
-    display: block;
 }
 .list section img, .list .tagline{
     display: none;
