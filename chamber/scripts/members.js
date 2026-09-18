@@ -5,7 +5,7 @@ async function getMembersData() {
     const response = await fetch(url);
     const data = await response.json();
 
-    displayMembers(data.members);
+    return data.members;
 }
 
 function displayMembers(members){
@@ -35,7 +35,7 @@ function displayMembers(members){
         tagLine.setAttribute('class',"tagline");
         addresss.innerHTML = `<b>Address:</b> ${member.address}`;
         phone.innerHTML = `<b>Phone:</b> ${member.phone}`;
-        url.innerHTML = `<b>Website:</b> <a href="${member.website}">Visit ${member.name}<a/>`;
+        url.innerHTML = `<b>Website:</b> <a href="${member.website}">Visit ${member.name}</a>`;
         
         card.appendChild(image);
 
@@ -51,5 +51,18 @@ function displayMembers(members){
 
         memberCards.appendChild(card);
     });
-}
-getMembersData();
+};
+
+export async function allMembers(){
+    const allMembers =  await getMembersData();
+    displayMembers(allMembers);
+};
+
+export async function topMembers() {
+    const allMembers =  await getMembersData();
+    const topMembers = allMembers.filter(member=>{
+        const level = member.membership.toLowerCase();
+        return level === "silver" || level === "gold";
+    });
+    displayMembers(topMembers);
+};

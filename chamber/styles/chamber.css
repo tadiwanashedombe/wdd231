@@ -89,13 +89,14 @@ main {
 
 .members {
     margin: 1rem 0;
-
 }
 
 .grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
+    
 }
 
 .members .card {
@@ -103,6 +104,8 @@ main {
     padding: .7rem;
     border-radius: 5px;
     margin-bottom: 1rem;
+    box-shadow: 0 11px 12px rgb(215, 216, 217);
+
 }
 
 .grid .card h2 {
@@ -178,11 +181,6 @@ footer span {
     border-radius: 0 0 7px 7px;
 }
 
-/* .cta {
-    bottom: 5px;
-    padding: .3rem;
-    } */
-
 .cta-statement,
 .cta-btn {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -220,8 +218,9 @@ footer span {
     background-color: rgb(117, 138, 146);
 }
 
-.events h2 {
+h2 {
     margin: 1rem;
+    text-align: center;
 }
 
 .event {
