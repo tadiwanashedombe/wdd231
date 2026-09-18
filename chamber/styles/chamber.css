@@ -70,7 +70,7 @@ nav a:hover {
 }
 
 main {
-    padding: 0 .7rem;
+    padding: 1rem .7rem;
     background-color: rgb(241, 240, 240);
 }
 
@@ -86,84 +86,59 @@ main {
     font-size: 1.1rem;
 }
 
+.members {
+    margin: 1rem 0;
+
+}
+
 .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    justify-content: center;
-    gap: 1rem;
-    padding: .3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.members .card {
+    background-color: #bababa5b;
+    padding: .7rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.grid .card h2 {
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.grid .tagline {
+    margin: .4rem 0;
+    text-align: center;
+}
+
+.contact p {
+    padding: .5rem 0;
 }
 
 .list {
-    display: flex;
-    flex-direction: column;
-    padding: .3rem 0;
-    justify-self: center;
-}
-
-.list>section {
     display: grid;
-    margin: .4rem 0;
-    grid-template-columns: 2fr 3fr;
-    justify-content: flex-start;
     align-items: center;
-    max-width: 580px;
 }
 
-.list section h2 {
-    text-align: left;
-    display: block;
+.list img {
+    display: none;
 }
 
-.list section .details {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.list section img,
 .list .tagline {
     display: none;
 }
 
-.card{
-    background-color: #bababa5b;
-    padding: .3rem .9rem;
-    border-radius: 3px;
-    max-width: 25rem;
-}
-
-section h2,
-section p {
-    text-align: center;
-}
-
-.details {
-    margin-top: .4rem;
+.list .card {
     display: grid;
-    grid-template-columns: 2fr 3fr;
-
 }
 
-.details img {
-    object-fit: cover;
-    width: 100%;
-    height: auto;
-    display: block;
-    aspect-ratio: 4/3;
-}
-
-.contact {
+.list .contact{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.contact p {
-    display: flex;
-    text-align: left;
-    margin-left: .2rem;
-    padding-left: .2rem;
-    padding-bottom: .4rem;
+    justify-content: space-around;
 }
 
 footer {
@@ -291,7 +266,8 @@ footer span {
     align-items: center;
 }
 
-.weather-card,.forecast-weather-card {
+.weather-card,
+.forecast-weather-card {
     margin: 1rem;
     background-color: rgb(191, 191, 191);
     border-radius: 5px;
@@ -300,7 +276,7 @@ footer span {
 
 }
 
-.weather-card{
+.weather-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -310,7 +286,7 @@ footer span {
 
 }
 
-.forecast-weather-card{
+.forecast-weather-card {
     display: grid;
     grid-template-columns: 3fr 4fr;
     gap: .5rem;
@@ -322,17 +298,20 @@ footer span {
         grid-column: 1/3;
         align-items: center;
     }
-    .forecast-description{
+
+    .forecast-description {
         display: grid;
-        border-right:3px solid grey ;
+        border-right: 3px solid grey;
         padding-bottom: .3rem;
         padding-right: .5rem;
-        .temp{
+
+        .temp {
             font-size: 2rem;
         }
     }
 }
-.forecast-weather-card:hover{
+
+.forecast-weather-card:hover {
     transform: scale(1.06);
 }
 

@@ -55,13 +55,13 @@
             "tagline": "Finger Lickin' Good"
         },
         {
-            "name": "Evanessa Mall",
-            "address": "46 Robson Manyika Office A3",
+            "name": "Central Mall",
+            "address": "46 Robert Mugabe",
             "phone": "0779887431",
-            "website": "N/a",
+            "website": "https://www.mall.co.zw/",
             "image": "images/mall.webp",
             "membership": "Member",
-            "tagline": "You One Stop Beauty Therapy"
+            "tagline": "You Home"
         }
     ]
 }

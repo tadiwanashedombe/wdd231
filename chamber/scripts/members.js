@@ -18,7 +18,6 @@ function displayMembers(members){
         const phone = document.createElement('p');
         const url = document.createElement('p');
         const addresss = document.createElement('p');
-        const details = document.createElement('span');
         const contact = document.createElement('span');
 
         bussinesName.textContent = member.name;
@@ -27,10 +26,9 @@ function displayMembers(members){
         image.setAttribute("src",member.image);
         image.setAttribute("alt",`image of  ${member.name}`);
         image.setAttribute("loading","lazy");
-        image.setAttribute("width","137");
-        image.setAttribute("height","90");
+        image.setAttribute("width","397");
+        image.setAttribute("height","220");
 
-        details.setAttribute('class', "details");
         contact.setAttribute("class","contact");
 
 
@@ -39,18 +37,17 @@ function displayMembers(members){
         phone.innerHTML = `<b>Phone:</b> ${member.phone}`;
         url.innerHTML = `<b>Website:</b> <a href="${member.website}">Visit ${member.name}<a/>`;
         
+        card.appendChild(image);
+
         card.appendChild(bussinesName);
         card.appendChild(tagLine);
         
 
-        details.appendChild(image);
         contact.appendChild(addresss);
         contact.appendChild(phone);
         contact.appendChild(url);
 
-
-        details.appendChild(contact)
-        card.appendChild(details);
+        card.appendChild(contact);
 
         memberCards.appendChild(card);
     });
