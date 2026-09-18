@@ -19,10 +19,6 @@ header {
     padding-bottom: .7rem;
     font-family: sans-serif;
 }
-h1{
-    color: #ffffff;
-
-}
 .hamburger {
     display: none;
 }
@@ -74,7 +70,7 @@ nav a:hover {
 
 main {
     padding: 0 .7rem;
-    background-color: rgba(49, 49, 72, 0.061);
+    background-color: rgb(241, 240, 240);
 }
 
 .view {
@@ -82,7 +78,7 @@ main {
     justify-content: center;
 }
 
-.view button {
+.view  button {
     margin-left: 1rem;
     padding: .7rem 1.5rem;
     font-family: 'Courier New', Courier, monospace;
