@@ -1,4 +1,4 @@
-@media only screen and (max-width:529px) {
+@media only screen and (max-width:630px) {
     .hamburger {
         background-color: rgb(49, 49, 72);
         border-radius: 5px;
@@ -20,7 +20,7 @@
         position: absolute;
         width: 100%;
         left: 0;
-        top: 84px;
+        top: 80px;
         flex-direction: column;
     }
 
@@ -28,11 +28,23 @@
         margin-bottom: 1rem;
         width: 100%;
     }
-
     nav a:hover {
         display: block;
         border-radius: 0;
+        background-color: rgb(121, 186, 212); 
+        color: white; 
+    }
 
+    nav li a {
+        display: block;
+        width: 100%;
+        padding: .5rem;
+        color: white; 
+    }
+
+    nav li a:hover {
+        background-color: rgb(121, 186, 212);
+        border-radius: 0;
     }
 
 
@@ -55,8 +67,15 @@
         flex-direction: row;
         width: 100%;
     }
+    /* index.html */
     .hero img{
         height: 10rem;
+    }
+    .event{
+        font-size: .7rem;
+    }
+    .time{
+        font-size: smaller;
     }
 }
 
