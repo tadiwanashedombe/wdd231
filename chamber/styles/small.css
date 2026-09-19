@@ -94,7 +94,7 @@
         width: 90%;
     }
 
-    .logo h1 {
+    .logo .heading {
         font-size: 3.6rem;
     }
     #weather{
