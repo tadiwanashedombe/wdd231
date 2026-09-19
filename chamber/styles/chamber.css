@@ -61,13 +61,11 @@ nav a:hover {
     border-radius: 50%;
 }
 
-.logo h1 {
+.logo .heading {
     font-family: "Caacupe One", sans-serif;
     font-weight: 400;
     font-size: 1.6rem;
     color: black;
-    font-display: swap;
-
 }
 
 main {
@@ -96,7 +94,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-    
+
 }
 
 .members .card {
@@ -107,7 +105,8 @@ main {
     box-shadow: 0 11px 12px rgb(215, 216, 217);
     position: relative;
 }
-.level{
+
+.level {
     position: absolute;
     bottom: 3px;
     right: 9px;
@@ -115,18 +114,19 @@ main {
     padding: .4rem;
     font-weight: bold;
 }
-.silver{
+
+.silver {
     background-color: #bababa;
     border: 2px solid silver;
 }
 
-.gold{
+.gold {
     background-color: #f5b639;
     border: 2px solid gold;
     color: white;
 }
 
-.member{
+.member {
     background-color: #52ff52;
     border: 2px solid #104110;
     color: black;
@@ -166,7 +166,7 @@ main {
     max-width: 670px;
 }
 
-.list .contact{
+.list .contact {
     display: flex;
     justify-content: space-around;
 }
@@ -210,7 +210,7 @@ footer span {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: larger;
     font-weight: bold;
-    color: whitesmoke;
+    color: white;
 }
 
 .cta-statement {
@@ -219,6 +219,8 @@ footer span {
     font-size: 4.3vw;
     text-align: center;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: .5rem 0;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8),
         0 0 10px rgba(0, 0, 0, 0.5);
 
@@ -231,7 +233,7 @@ footer span {
     border-radius: 5px;
     cursor: pointer;
     width: 6rem;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(0, 0, 0, 0.45);
     backdrop-filter: blur(19px);
     top: 45%;
     left: 50%;
@@ -320,20 +322,20 @@ h2 {
     align-items: center;
     padding: 1rem;
 
-    .date {
-        grid-column: 1/3;
-        align-items: center;
-    }
+}
 
-    .forecast-description {
-        display: grid;
-        border-right: 3px solid grey;
-        padding-bottom: .3rem;
-        padding-right: .5rem;
+.forecast-weather-card .date {
+    grid-column: 1/3;
+}
 
-        .temp {
-            font-size: 2rem;
-        }
+.forecast-weather-card .forecast-description {
+    display: grid;
+    border-right: 3px solid grey;
+    padding-bottom: .3rem;
+    padding-right: .5rem;
+
+    .forecast-weather-card .temp {
+        font-size: 2rem;
     }
 }
 
