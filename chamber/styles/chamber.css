@@ -105,7 +105,31 @@ main {
     border-radius: 5px;
     margin-bottom: 1rem;
     box-shadow: 0 11px 12px rgb(215, 216, 217);
+    position: relative;
+}
+.level{
+    position: absolute;
+    bottom: 3px;
+    right: 9px;
+    border-radius: 5px;
+    padding: .4rem;
+    font-weight: bold;
+}
+.silver{
+    background-color: #bababa;
+    border: 2px solid silver;
+}
 
+.gold{
+    background-color: #f5b639;
+    border: 2px solid gold;
+    color: white;
+}
+
+.member{
+    background-color: #52ff52;
+    border: 2px solid #104110;
+    color: black;
 }
 
 .grid .card h2 {
