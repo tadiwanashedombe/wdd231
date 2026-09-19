@@ -238,12 +238,11 @@ footer span {
     top: 45%;
     left: 50%;
     transform: translateX(-50%);
-}
-.cta-btn a{
-    text-decoration: none;
     color: white;
+    text-decoration: none;
+    text-align: center;
 }
-.cta-btn a:active{
+.cta-btn:active{
     color: white;
 
 }
