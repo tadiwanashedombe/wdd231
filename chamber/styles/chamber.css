@@ -162,8 +162,8 @@ main {
 }
 
 .list .card {
-    display: grid;
-    max-width: 670px;
+    display: flex;
+    max-width: 700px;
 }
 
 .list .contact {
