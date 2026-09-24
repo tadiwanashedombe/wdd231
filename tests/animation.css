@@ -1,0 +1,62 @@
+/* .box{
+    width: 20rem;
+    height: 20rem;
+    animation: fadeIn 2s ease-in-out infinite alternate;
+    background-color: red;
+} */
+/* .box{
+    width: 20rem;
+    height: 20rem;
+    animation: fadeColor 2s ease-in-out infinite alternate;
+    background-color: red;
+} */
+/* .box{
+    width: 20rem;
+    height: 20rem;
+    background-color: white;
+    transition: background-color 2s ease;
+}
+
+.box:hover{
+    background-color: lightblue;
+} */
+
+/* .box{
+    width: 20rem;
+    height: 20rem;
+    background-color: coral;
+    transition: width .3s  ease-in-out .2s, height .3s ease-in-out .2s;
+}
+
+.box:hover{
+    width: 25rem;
+    height: 25rem;
+} */
+
+
+.box{
+    width: 20rem;
+    height: 20rem;
+    background-color: coral;
+    transform: rotate(15deg) translateX(20px) scale(1.5);
+}
+
+
+
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@keyframes fadeColor {
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: yellow;
+    }
+}
