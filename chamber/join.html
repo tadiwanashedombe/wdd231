@@ -55,6 +55,53 @@
         </nav>
     </header>
     <main>
+        <form action="thankyou.html" method="get">
+            <label for="firstName">First Name*: </label>
+            <input type="text" id="firstName" name="firstName" autocomplete="given-name" title="Enter Your first name"
+                required>
+
+            <label for="lasstName">Last Name*: </label>
+            <input type="text" id="lastName" name="lastName" autocomplete="family-name" title="Enter your last name"
+                required>
+
+            <label for="orgTitle">Organizational Title*: </label>
+            <input type="text" name="orgTitle" id="orgTitle" title="Please enter the title of your organization"
+                pattern="[A-Za-z\-\s]{7,}" required autocomplete="organization-title">
+
+            <label for="email">Email*: </label>
+            <input type="email" name="email" id="email" title="Enter your email address" autocomplete="email"
+                placeholder="john@doe.com" required>
+
+            <label for="mobilePhone">Mobile Phone Number*: </label>
+            <input type="tel" name="mobilePhone" id="mobilePhone" title="Please enter a phone number" autocomplete="tel"
+                required>
+
+            <label for="businessName">Business/Organization's Name* :</label>
+            <input type="text" name="businessName" id="businessName" required title="Please enter your business name"
+                autocomplete="organization">
+
+            <fieldset>
+                <legend>Membership Level</legend>
+
+                <label for="np">NP: </label>
+                <input type="radio" id="np" value="np" name="level">
+
+                <label for="bronze">Bronze: </label>
+                <input type="radio" id="bronze" value="bronze" name="level">
+
+                <label for="silver">Silver: </label>
+                <input type="radio" id="silver" value="silver" name="level">
+
+                <label for="gold">Gold: </label>
+                <input type="radio" id="gold" value="gold" name="level">
+            </fieldset>
+            <label for="description">Business / Organization's Name: </label>
+            <textarea id="description" title="Please describe your business" name="description"></textarea>
+
+            <input type="hidden" name="timestamp" id="timestamp">
+
+            <button type="submit">Join Chamber</button>
+        </form>
     </main>
     <footer>
         <span class="left-footer">
