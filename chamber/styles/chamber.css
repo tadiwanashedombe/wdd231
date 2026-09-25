@@ -1,3 +1,6 @@
+:root{
+    --c2:black;
+}
 * {
     margin: 0;
     padding: 0;
@@ -376,7 +379,7 @@ h2 {
     justify-content: space-between;
 }
 
-/* Join */
+/* ///////////////////////////////////////////////////////////////Join */
 #join {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -399,8 +402,10 @@ h2 {
     border-radius: 15px;
     color: black;
 }
-
-
+.form-header{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
 
 .join label,
 .join button,
@@ -449,31 +454,73 @@ fieldset {
     color: black;
 }
 
+@property --gradient-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
 .membership-card {
     display: grid;
-    background-color: #bababa5b;
-    padding: .7rem;
+    /* background-color: #bababa5b; */
+    padding: .2rem;
     border-radius: 5px;
     margin-bottom: 1rem;
     box-shadow: 0 11px 12px rgb(215, 216, 217);
     max-width: 500px;
     justify-self: center;
     width: 17rem;
+    background-image: conic-gradient(from var(--gradient-angle),
+            var(--c1),
+            var(--c2),
+            var(--c1),
+            var(--c2),
+            var(--c1));
+    animation: rotate-border 4s linear infinite;
 }
-.membership-card h3{
+
+.membership-card .card-content {
+    background-color: #bababa;
+    /* background: #0f172a; */
+    color: #ffffff;
+    padding: 24px;
+    border-radius: 3px;
+}
+@keyframes rotate-border {
+  0% {
+    --gradient-angle: 0deg;
+  }
+  100% {
+    --gradient-angle: 360deg;
+  }
+}
+
+.member-np {
+    --c1:#52ff52;
+}
+.member-bronze {
+    --c1:rgb(241, 110, 110);
+}
+.member-silver {
+    --c1:#bababa;
+}.member-gold {
+    --c1:#f5b639;
+}
+.membership-card h3 {
     text-align: center;
     color: black;
 }
-.membership-card button{
+
+.membership-card button {
     display: flex;
     justify-self: center;
     max-width: 7rem;
     margin-top: .7rem;
     padding: .3rem;
 }
-.bronze{
-    border:2px solid rgb(209, 144, 33);
-}
+
+
+
 dialog[open] {
     display: flex;
 }
