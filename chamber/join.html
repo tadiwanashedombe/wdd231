@@ -47,15 +47,16 @@
 
         <nav class="navigation">
             <ul>
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
+                <li><a href="join.html" class="active">Join</a></li>
                 <li><a href="discover.html">Discover</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <form action="thankyou.html" method="get">
+        <form class="join" action="thankyou.html" method="get">
+            <h1>Join the Chitungwiza Chamber of Commerce</h1>
             <label for="firstName">First Name*: </label>
             <input type="text" id="firstName" name="firstName" autocomplete="given-name" title="Enter Your first name"
                 required>
@@ -83,17 +84,24 @@
             <fieldset>
                 <legend>Membership Level</legend>
 
-                <label for="np">NP: </label>
-                <input type="radio" id="np" value="np" name="level">
+                <label for="np">NP:
 
-                <label for="bronze">Bronze: </label>
-                <input type="radio" id="bronze" value="bronze" name="level">
+                    <input type="radio" id="np" value="np" name="level">
+                </label>
 
-                <label for="silver">Silver: </label>
-                <input type="radio" id="silver" value="silver" name="level">
+                <label for="bronze">Bronze:
 
-                <label for="gold">Gold: </label>
-                <input type="radio" id="gold" value="gold" name="level">
+                    <input type="radio" id="bronze" value="bronze" name="level">
+                </label>
+
+                <label for="silver">Silver:
+
+                    <input type="radio" id="silver" value="silver" name="level">
+                </label>
+
+                <label for="gold">Gold: 
+                    <input type="radio" id="gold" value="gold" name="level">
+                </label>
             </fieldset>
             <label for="description">Business / Organization's Name: </label>
             <textarea id="description" title="Please describe your business" name="description"></textarea>
