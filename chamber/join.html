@@ -64,12 +64,12 @@
             <input type="text" id="firstName" name="firstName" autocomplete="given-name" title="Enter Your first name"
                 required>
 
-            <label for="lasstName">Last Name*: </label>
+            <label for="lastName">Last Name*: </label>
             <input type="text" id="lastName" name="lastName" autocomplete="family-name" title="Enter your last name"
                 required>
 
             <label for="orgTitle">Organizational Title*: </label>
-            <input type="text" name="orgTitle" id="orgTitle" title="Please enter the title of your organization"
+            <input type="text" name="orgTitle" id="orgTitle" title="Please enther 7 or more characters"
                 pattern="[A-Za-z\-\s]{7,}" required autocomplete="organization-title">
 
             <label for="email">Email*: </label>
@@ -83,30 +83,15 @@
             <label for="businessName">Business/Organization's Name* :</label>
             <input type="text" name="businessName" id="businessName" required title="Please enter your business name"
                 autocomplete="organization">
+            <label for="level">Membership Level:</label>
+            <select name="level" id="level">
+                <option selected disabled>Select a membership level</option>
+                <option value="np">NP is for non profit organizations and there is no fee</option>
+                <option value="bronze">Bronze Membership</option>
+                <option value="silver">Silver Membership</option>
+                <option value="gold">Gold Membership</option>
+            </select>
 
-            <fieldset>
-                <legend>Membership Level</legend>
-
-                <label for="np">
-                    <input type="radio" id="np" value="np" name="level">
-                    Non Profit Memebership
-                </label>
-
-                <label for="bronze">
-                    <input type="radio" id="bronze" value="bronze" name="level">
-                    Bronze Memebership
-                </label>
-
-                <label for="silver">
-                    <input type="radio" id="silver" value="silver" name="level">
-                    Silver Memebership
-                </label>
-
-                <label for="gold">
-                    <input type="radio" id="gold" value="gold" name="level">
-                    Gold Memebership
-                </label>
-            </fieldset>
             <label for="description">Business / Organization's Name: </label>
             <textarea id="description" title="Please describe your business" name="description"></textarea>
 

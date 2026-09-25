@@ -1,6 +1,7 @@
-:root{
-    --c2:black;
+:root {
+    --c2: black;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -383,7 +384,6 @@ h2 {
 #join {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
 }
 
 #join h1 {
@@ -402,7 +402,8 @@ h2 {
     border-radius: 15px;
     color: black;
 }
-.form-header{
+
+.form-header {
     font-weight: bold;
     font-size: 1.3rem;
 }
@@ -415,6 +416,7 @@ fieldset {
 }
 
 .join input,
+.join select,
 .join textarea {
     border: none;
     padding: .5rem;
@@ -460,16 +462,22 @@ fieldset {
     inherits: false;
 }
 
+.memberships {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
 .membership-card {
     display: grid;
-    /* background-color: #bababa5b; */
+    justify-self: center;
     padding: .2rem;
     border-radius: 5px;
     margin-bottom: 1rem;
     box-shadow: 0 11px 12px rgb(215, 216, 217);
-    max-width: 500px;
-    justify-self: center;
-    width: 17rem;
+    max-width: 600px;
+    width: 19rem;
     background-image: conic-gradient(from var(--gradient-angle),
             var(--c1),
             var(--c2),
@@ -486,26 +494,33 @@ fieldset {
     padding: 24px;
     border-radius: 3px;
 }
+
 @keyframes rotate-border {
-  0% {
-    --gradient-angle: 0deg;
-  }
-  100% {
-    --gradient-angle: 360deg;
-  }
+    0% {
+        --gradient-angle: 0deg;
+    }
+
+    100% {
+        --gradient-angle: 360deg;
+    }
 }
 
 .member-np {
-    --c1:#52ff52;
+    --c1: #52ff52;
 }
+
 .member-bronze {
-    --c1:rgb(241, 110, 110);
+    --c1: rgb(241, 110, 110);
 }
+
 .member-silver {
-    --c1:#bababa;
-}.member-gold {
-    --c1:#f5b639;
+    --c1: #bababa;
 }
+
+.member-gold {
+    --c1: #f5b639;
+}
+
 .membership-card h3 {
     text-align: center;
     color: black;
@@ -515,8 +530,12 @@ fieldset {
     display: flex;
     justify-self: center;
     max-width: 7rem;
-    margin-top: .7rem;
-    padding: .3rem;
+    margin-top: .9rem;
+    padding: .6rem;
+    background: #5c5c5c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
 }
 
 
@@ -562,7 +581,10 @@ dialog[open] {
 
 /* Join */
 /* ////////////////thank you/////////////////////////// */
-.thankyou{
+.thankyou-h1{
+    text-align: center;
+}
+.thankyou {
     display: flex;
     flex-direction: column;
     justify-self: center;
@@ -571,16 +593,17 @@ dialog[open] {
     min-width: 340px;
     padding: 0 0 .7rem 1rem;
     border-radius: 5px;
-    box-shadow:  0 0 10px black;
+    box-shadow: 0 0 10px black;
 }
 
-.contact-details p{
+.contact-details p {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: .6rem;
     padding: .5rem 0;
 }
-.contact-details p strong{
+
+.contact-details p strong {
     display: flex;
     justify-content: flex-end;
 }
