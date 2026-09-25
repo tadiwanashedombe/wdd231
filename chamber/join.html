@@ -54,9 +54,10 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="join">
+        <h1>Join the Chitungwiza Chamber of Commerce</h1>
         <form class="join" action="thankyou.html" method="get">
-            <h1>Join the Chitungwiza Chamber of Commerce</h1>
+            <span class="form-header">Membership Application</span>
             <label for="firstName">First Name*: </label>
             <input type="text" id="firstName" name="firstName" autocomplete="given-name" title="Enter Your first name"
                 required>
@@ -84,23 +85,24 @@
             <fieldset>
                 <legend>Membership Level</legend>
 
-                <label for="np">NP:
-
+                <label for="np">
                     <input type="radio" id="np" value="np" name="level">
+                    Non Profit Memebership
                 </label>
 
-                <label for="bronze">Bronze:
-
+                <label for="bronze">
                     <input type="radio" id="bronze" value="bronze" name="level">
+                    Bronze Memebership
                 </label>
 
-                <label for="silver">Silver:
-
+                <label for="silver">
                     <input type="radio" id="silver" value="silver" name="level">
+                    Silver Memebership
                 </label>
 
-                <label for="gold">Gold: 
+                <label for="gold">
                     <input type="radio" id="gold" value="gold" name="level">
+                    Gold Memebership
                 </label>
             </fieldset>
             <label for="description">Business / Organization's Name: </label>
@@ -110,6 +112,78 @@
 
             <button type="submit">Join Chamber</button>
         </form>
+        <section class="memberships">
+            <h2>Our Memberships</h2>
+            <div class="membership-card member">
+                <h3>Non Profit Membership Level</h3>
+                <button class="button open-button" popovertarget="np-benefits">Learn More</button>
+
+                <dialog class="modal" id="np-benefits" popover>
+                    <button class="close-button" popovertarget="np-benefits" popovertargetaction="hide">❌</button>
+                    <h4>Non Profit Membership</h4>
+
+                    <ul>
+                        <li>You'll get a nice plaque with the mayor's stamp</li>
+                        <li>You get to ride on the ZUPCO</li>
+                    </ul>
+                    <p>Cost : Free</p>
+                </dialog>
+            </div>
+
+            <div class="membership-card bronze">
+                <h3>Bronze Membership Level</h3>
+                <button class="button open-button" popovertarget="bronze-benefits">Learn More</button>
+
+                <dialog class="modal" id="bronze-benefits" popover>
+                    <button class="close-button" popovertarget="bronze-benefits" popovertargetaction="hide">❌</button>
+                    <h4>Bronze Membership</h4>
+                    <p>Benefits: </p>
+                    <ul>
+                        <li>You'll get contact with top advisers</li>
+                        <li>You get a "Just Joined" t-shirt</li>
+                        <li>Reduced parking fee</li>
+                    </ul>
+                    <p>Cost : $10 Annually</p>
+                </dialog>
+            </div>
+
+            <div class="membership-card silver">
+                <h3>Silver Membership Level</h3>
+                <button class="button open-button" popovertarget="silver-benefits">Learn More</button>
+
+                <dialog class="modal" id="silver-benefits" popover>
+                    <button class="close-button" popovertarget="silver-benefits" popovertargetaction="hide">❌</button>
+                    <h4>Silver Membership</h4>
+
+                    <ul>
+                        <li>Access to one on one sessions</li>
+                        <li>Private store room</li>
+                        <li>Free drinks at every meeting</li>
+                        <li>Can lead the other members</li>
+                    </ul>
+                    <p>Cost : $45</p>
+                </dialog>
+            </div>
+
+            <div class="membership-card gold">
+                <h3>Gold Membership Level</h3>
+                <button class="button open-button" popovertarget="gold-benefits">Learn More</button>
+
+                <dialog class="modal" id="gold-benefits" popover>
+                    <button class="close-button" popovertarget="gold-benefits" popovertargetaction="hide">❌</button>
+                    <h4>Gold Membership</h4>
+
+                    <ul>
+                        <li>Can arrange meeting</li>
+                        <li>Free Parking</li>
+                        <li>Reduced Advertising costs</li>
+                        <li>22 days on spolight monthly</li>
+                        <li>Access to two Billboards</li>
+                    </ul>
+                    <p>Cost : $90</p>
+                </dialog>
+            </div>
+        </section>
     </main>
     <footer>
         <span class="left-footer">
