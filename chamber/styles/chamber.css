@@ -549,8 +549,6 @@ dialog[open] {
 
 .modal h4 {
     font-size: 1.3rem;
-    text-decoration: dotted;
-    text-decoration-color: grey;
 }
 
 .modal ul {
@@ -563,3 +561,26 @@ dialog[open] {
 }
 
 /* Join */
+/* ////////////////thank you/////////////////////////// */
+.thankyou{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background-color: #bababa;
+    position: relative;
+    min-width: 340px;
+    padding: 0 0 .7rem 1rem;
+    border-radius: 5px;
+    box-shadow:  0 0 10px black;
+}
+
+.contact-details p{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: .6rem;
+    padding: .5rem 0;
+}
+.contact-details p strong{
+    display: flex;
+    justify-content: flex-end;
+}
