@@ -10,6 +10,7 @@ async function getMembersData() {
 
 function displayMembers(members) {
     members.forEach(member => {
+        if(!memberCards)return;
         const card = document.createElement('section');
         card.setAttribute("class", "card")
         const bussinesName = document.createElement('h2');

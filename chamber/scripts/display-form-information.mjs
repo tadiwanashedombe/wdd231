@@ -7,7 +7,7 @@ const fmt = (iso) => {
 
 
 export function thankyou() {
-
+    if(!container)return;
     container.innerHTML = `
         <h2>${info.get("firstName")} ${info.get("lastName")}</h2>
         <div class="contact-details">

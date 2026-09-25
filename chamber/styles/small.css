@@ -28,18 +28,19 @@
         margin-bottom: 1rem;
         width: 100%;
     }
+
     nav a:hover {
         display: block;
         border-radius: 0;
-        background-color: rgb(121, 186, 212); 
-        color: white; 
+        background-color: rgb(121, 186, 212);
+        color: white;
     }
 
     nav li a {
         display: block;
         width: 100%;
         padding: .5rem;
-        color: white; 
+        color: white;
     }
 
     nav li a:hover {
@@ -67,23 +68,33 @@
         flex-direction: row;
         width: 100%;
     }
+
     /* index.html */
-    .hero img{
+    .hero img {
         height: 10rem;
     }
-    .event{
+
+    .event {
         font-size: .7rem;
     }
-    .time{
+
+    .time {
         font-size: smaller;
     }
 
-    #weather{
+    #weather {
         grid-template-columns: 1fr;
     }
-    .current{
+
+    .current {
         display: flex;
         justify-content: center;
+    }
+
+    /* ////////join,html */
+    #join {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -97,11 +108,13 @@
     .logo .heading {
         font-size: 3.6rem;
     }
-    #weather{
+
+    #weather {
         display: flex;
     }
-    .forecast{
+
+    .forecast {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
