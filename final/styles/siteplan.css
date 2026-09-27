@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100dvh;
+    font-family: sans-serif;
+}
+
+h1,
+footer {
+    display: block;
+    margin: 0;
+    font-family: serif;
+    text-align: center;
+    padding: 1rem;
+    background-color: #EDEDED;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin: 0 1rem;
+
+    max-width: 910px;
+}
+
+section {
+    border: 1px solid rgb(173, 172, 172);
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+section p {
+    text-wrap: pretty;
+    font-size: large;
+    padding: .5rem;
+}
+
+.scenario {
+    display: block;
+    margin-left: .7rem;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    background-color: #EDEDED;
+    border-left: 3px solid black;
+}
+
+#colors {
+    display: flex;
+    flex-direction: row;
+}
+
+.colors {
+    width: 18rem;
+    height: 8rem;
+    padding: 3rem;
+    margin: 1rem;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#background {
+    background-color: #EDEDED;
+}
+
+#header-footer {
+    background-color: #C0C0C0;
+}
+
+#text {
+    background-color: #111111;
+    color: #EDEDED;
+}
+
+#student-cards {
+    background-color: #D8e2f9;
+}
+
+#typography {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: larger;
+}
+.serif{
+    font-family: serif;
+}
+.sans-serif{
+    font-family: sans-serif;
+}
