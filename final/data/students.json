@@ -2,213 +2,250 @@
   "students": [
     {
       "name": "Tadiwanashe Dombe",
-      "class": "4A",
+      "class": "4B",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
-      "top_student": false
+      "practical_subject": "Computer Science",
+      "top_student": "Computer Science"
     },
     {
       "name": "Tashe Tawanga",
       "class": "4A",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
+      "practical_subject": "Building",
       "top_student": false
     },
     {
       "name": "Amah Mashambo",
       "class": "4B",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
-      "top_student": false
+      "practical_subject": "Food",
+      "top_student": "Shona Languange"
     },
     {
       "name": "Yale Mambwe",
       "class": "4B",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
+      "practical_subject": "Agriculture",
       "top_student": false
     },
     {
       "name": "Nzwe Nyoni",
       "class": "4A",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
-      "top_student": false
+      "practical_subject": "Building",
+      "top_student": "English Literature"
     },
     {
       "name": "Sibongile Chikozho",
       "class": "4C",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Biology", "Chemistry", "Physics", "Computer Science"],
-      "top_student": true
+      "practical_subject": "Musical Entertainment",
+      "top_student": "Mathematics"
     },
     {
       "name": "Lebo Lomwe",
       "class": "4A",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
-      "top_student": false
+      "practical_subject": "Agriculture",
+      "top_student": "Combined Science"
     },
     {
       "name": "Zane Zulu",
       "class": "4B",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
+      "practical_subject": "Food",
       "top_student": false
     },
     {
       "name": "Huda Hade",
       "class": "4C",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Biology", "Chemistry", "Physics", "Computer Science"],
-      "top_student": true
+      "practical_subject": "Building",
+      "top_student": "English Language"
     },
     {
       "name": "Kesi Kanyama",
       "class": "4A",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
-      "top_student": false
+      "practical_subject": "Musical Entertainment",
+      "top_student": "Shona Literature"
     },
     {
       "name": "Raila Ramana",
       "class": "4B",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
+      "practical_subject": "Computer Science",
       "top_student": false
     },
     {
       "name": "Fikayo Fafapo",
       "class": "4C",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Biology", "Chemistry", "Physics", "Computer Science"],
-      "top_student": true
+      "practical_subject": "Building",
+      "top_student": "Geography"
     },
     {
       "name": "Dika Dlamini",
-      "class": "4A",
+      "class": "4C",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Biology", "Chemistry", "Physics", "Computer Science"],
-      "top_student": true
+      "practical_subject": "Building",
+      "top_student": "Biology"
     },
     {
       "name": "Malu Malamuthi",
-      "class": "4C",
+      "class": "4B",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
-      "top_student": false
+      "practical_subject": "Computer Science",
+      "top_student": "Business And Enterprise Skills"
     },
     {
       "name": "Toni Tawanga",
       "class": "4A",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
-      "top_student": false
+      "practical_subject": "Building",
+      "top_student": "Building"
     },
     {
       "name": "Wes Weswe",
       "class": "4B",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
+      "practical_subject": "Agriculture",
       "top_student": false
     },
     {
       "name": "Lebo Lendina",
       "class": "4C",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Biology", "Chemistry", "Physics", "Computer Science"],
-      "top_student": false
+      "practical_subject": "Musical Entertainment",
+      "top_student": "Musical Entertainemnt"
     },
     {
       "name": "Dudu Duku",
       "class": "4A",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
+      "practical_subject": "Building",
       "top_student": false
     },
     {
       "name": "Tafari Tafari",
       "class": "4B",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
-      "top_student": false
+      "practical_subject": "Agriculture",
+      "top_student": "History"
     },
     {
       "name": "Mama Mamae",
       "class": "4C",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Biology", "Chemistry", "Physics", "Computer Science"],
-      "top_student": true
+      "practical_subject": "Musical Entertainment",
+      "top_student": "Chemistry"
     },
     {
       "name": "Nase Nasee",
       "class": "4A",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
-      "top_student": false
+      "practical_subject": "Building",
+      "top_student": "Family And Religious Studies"
     },
     {
       "name": "Zola Zolani",
       "class": "4B",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
-      "top_student": false
+      "practical_subject": "Agriculture",
+      "top_student": "Agriculture"
     },
     {
       "name": "Fikayo Fika",
       "class": "4C",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Biology", "Chemistry", "Physics", "Computer Science"],
-      "top_student": true
+      "practical_subject": "Computer Science",
+      "top_student": "Physics"
     },
     {
       "name": "Tusi Tusi",
       "class": "4A",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
+      "practical_subject": "Agriculture",
       "top_student": false
     },
     {
       "name": "Kasi Kasi",
       "class": "4B",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
+      "practical_subject": "Agriculture",
       "top_student": false
     },
     {
       "name": "Bheki Bheki",
       "class": "4C",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
-      "top_student": false
+      "practical_subject": "Food",
+      "top_student": "Food"
     },
     {
       "name": "Ane Ane",
       "class": "4A",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
+      "practical_subject": "Musical Entertainment",
       "top_student": false
     },
     {
       "name": "Juma Juma",
       "class": "4B",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
-      "top_student": false
+      "practical_subject": "Agriculture",
+      "top_student": "Economics"
     },
     {
       "name": "Rae Rae",
       "class": "4C",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Biology", "Chemistry", "Physics", "Computer Science"],
+      "practical_subject": "Musical Entertainment",
       "top_student": false
     },
     {
       "name": "Sipho Sipho",
       "class": "4A",
       "session": "November 2026",
-      "subjects": ["Mathematics", "English", "Geography", "Combined Science", "Family and religious studies", "History", "Business and Enterprise Skills", "Economics"],
+      "practical_subject": "Agriculture",
       "top_student": false
+    }
+  ],
+  "subjects": [
+    {
+      "4A": [
+        "Family And Religious Studies",
+        "English Literature",
+        "Combined Science",
+        "Shona Literature",
+        "English Language",
+        "Shona Language",
+        "Mathematics",
+        "Geography",
+        "History"
+      ],
+      "4B": [
+        "Family And Religious Studies",
+        "Business And Enterprise Skills",
+        "Combined Science",
+        "English Language",
+        "Shona Language",
+        "Mathematics",
+        "Geography",
+        "Economics",
+        "History"
+      ],
+      "4C": [
+        "Family And Religious Studies",
+        "English Language",
+        "Shona Language",
+        "Mathematics",
+        "Geography",
+        "Chemistry",
+        "Biology",
+        "History",
+        "Physics"
+      ]
     }
   ]
 }
