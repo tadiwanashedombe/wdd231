@@ -1,4 +1,4 @@
-@media only screen and (max-width:730px) {
+@media only screen and (max-width:640px) {
     .hamburger {
         background-color: rgb(49, 49, 72);
         border-radius: 5px;
@@ -99,9 +99,49 @@
 
     }
 
+    /* discover ////////////////////////////////////////*/
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        justify-content: center;
+        grid-template-areas:
+            "name"
+            "image"
+            "desc"
+            "location"
+            "button ";
+    }
+
+    .card picture {
+        display: flex;
+        justify-content: center;
+        margin-bottom: .9rem;
+    }
 }
 
-@media only screen and (min-width:1490px) {
+@media only screen and (max-width:1024px) and (min-width:641px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        grid-template-areas:
+            "name  name"
+            "image desc"
+            "image location"
+            "button button";
+    }
+
+    .card img:hover{
+        transform:  scale(1.1);
+    }
+}
+
+@media only screen and (min-width:1049px) {
     main {
         margin: 0 auto;
         background-color: rgba(49, 49, 72, 0.061);
@@ -119,5 +159,11 @@
     .forecast {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .card img:hover{
+        box-shadow: 0 10px 12px black;
+        transform: scale(1.1);
     }
 }

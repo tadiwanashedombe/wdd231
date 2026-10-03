@@ -1,5 +1,6 @@
 :root {
     --c2: black;
+    --card-background: #bababa5b
 }
 
 * {
@@ -48,7 +49,7 @@ nav li a {
 
 nav a:hover {
     border-radius: 5px;
-    background-color: rgb(121, 186, 212);
+    background-color: rgb(216, 221, 227);
 
 }
 
@@ -102,7 +103,7 @@ main {
 }
 
 .members .card {
-    background-color: #bababa5b;
+    background-color: var(--card-background);
     padding: .7rem;
     border-radius: 5px;
     margin-bottom: 1rem;
@@ -397,7 +398,7 @@ h2 {
     justify-self: center;
     max-width: 400px;
     min-width: 30vw;
-    background-color: #bababa5b;
+    background-color: var(--card-background);
     padding: 2rem;
     border-radius: 15px;
     color: black;
@@ -581,9 +582,10 @@ dialog[open] {
 
 /* Join */
 /* ////////////////thank you/////////////////////////// */
-.thankyou-h1{
+.thankyou-h1 {
     text-align: center;
 }
+
 .thankyou {
     display: flex;
     flex-direction: column;
@@ -606,4 +608,83 @@ dialog[open] {
 .contact-details p strong {
     display: flex;
     justify-content: flex-end;
+}
+
+/* ////////////disciver/////////////// */
+.message {
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    opacity: 0;
+}
+.message.visible {
+    animation: fadeInOut 7s ease-in-out forwards;
+}
+@keyframes fadeInOut {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+#message-text {
+    border-radius: 12px;
+    background-color: #3a3a3a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    padding: 12px;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.card {
+    background-color: var(--card-background);
+    padding: .7rem;
+    border-radius: 12px;
+    display: grid;
+    grid-template-areas:
+        "name name"
+        "image desc"
+        "image location"
+        "button button";
+
+}
+
+.card picture {
+    grid-area: image;
+}
+
+.card p {
+    text-align: center;
+    grid-area: desc;
+}
+
+.card address {
+    grid-area: location;
+    text-align: center;
+}
+
+.card button {
+    grid-area: button;
+    background-color: #1c1c1c;
+    padding: 1rem;
+    color: white;
+    width: 100%;
+    font-family: sans-serif;
+    border-radius: 30px;
+    border: none;
 }

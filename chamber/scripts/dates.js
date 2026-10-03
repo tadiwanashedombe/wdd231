@@ -2,4 +2,8 @@ document.querySelector('#currentyear').innerHTML = `&copy;${new Date().getFullYe
 
 document.querySelector('#lastModified').innerHTML = `Last Modified: ${document.lastModified}`;
 
-document.getElementById('timestamp').value = new Date().toISOString();
+const timestamp = document.getElementById('timestamp');
+
+if(timestamp){
+    timestamp = document.getElementById('timestamp').value = new Date().toISOString();
+}
