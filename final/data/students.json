@@ -209,6 +209,636 @@
       "session": "November 2026",
       "practical_subject": "Agriculture",
       "top_student": false
+    },
+    {
+      "name": "Farai Moyo",
+      "class": "4A",
+      "session": "April 2027",
+      "practical_subject": "Building",
+      "top_student": false
+    },
+    {
+      "name": "Tanya Ndlovu",
+      "class": "4B",
+      "session": "April 2027",
+      "practical_subject": "Computer Science",
+      "top_student": false
+    },
+    {
+      "name": "Kudzai Ncube",
+      "class": "4C",
+      "session": "April 2027",
+      "practical_subject": "Food",
+      "top_student": false
+    },
+    {
+      "name": "Mwayi Phiri",
+      "class": "4A",
+      "session": "April 2027",
+      "practical_subject": "Agriculture",
+      "top_student": false
+    },
+    {
+      "name": "Chipo Mpofu",
+      "class": "4B",
+      "session": "April 2027",
+      "practical_subject": "Musical Entertainment",
+      "top_student": false
+    },
+    {
+      "name": "Tinashe Banda",
+      "class": "4C",
+      "session": "April 2027",
+      "practical_subject": "Building",
+      "top_student": false
+    },
+    {
+      "name": "Rudo Sithole",
+      "class": "4A",
+      "session": "April 2027",
+      "practical_subject": "Computer Science",
+      "top_student": false
+    },
+    {
+      "name": "Simba Dube",
+      "class": "4B",
+      "session": "April 2027",
+      "practical_subject": "Agriculture",
+      "top_student": false
+    },
+    {
+      "name": "Tariro Tembo",
+      "class": "4C",
+      "session": "April 2027",
+      "practical_subject": "Food",
+      "top_student": false
+    },
+    {
+      "name": "Nyasha Nyathi",
+      "class": "4A",
+      "session": "April 2027",
+      "practical_subject": "Musical Entertainment",
+      "top_student": false
+    },
+    {
+      "name": "Tendai Sibanda",
+      "class": "4B",
+      "session": "April 2027",
+      "practical_subject": "Building",
+      "top_student": false
+    },
+    {
+      "name": "Mthokozisi Khumalo",
+      "class": "4C",
+      "session": "April 2027",
+      "practical_subject": "Computer Science",
+      "top_student": false
+    },
+    {
+      "name": "Anesu Hove",
+      "class": "4A",
+      "session": "April 2027",
+      "practical_subject": "Agriculture",
+      "top_student": false
+    },
+    {
+      "name": "Danai Gumbo",
+      "class": "4B",
+      "session": "April 2027",
+      "practical_subject": "Food",
+      "top_student": false
+    },
+    {
+      "name": "Fungai Mhere",
+      "class": "4C",
+      "session": "April 2027",
+      "practical_subject": "Musical Entertainment",
+      "top_student": false
+    },
+    {
+      "name": "Vimbai Zhou",
+      "class": "4A",
+      "session": "April 2027",
+      "practical_subject": "Building",
+      "top_student": false
+    },
+    {
+      "name": "Blessing Macharia",
+      "class": "4B",
+      "session": "April 2027",
+      "practical_subject": "Computer Science",
+      "top_student": false
+    },
+    {
+      "name": "Kudakwashe Chiwenga",
+      "class": "4C",
+      "session": "April 2027",
+      "practical_subject": "Agriculture",
+      "top_student": false
+    },
+    {
+      "name": "Unathi Nkomo",
+      "class": "4A",
+      "session": "April 2027",
+      "practical_subject": "Food",
+      "top_student": false
+    },
+    {
+      "name": "Bongani Mhlanga",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Musical Entertainment",
+      "top_student": false
+    },
+    {
+      "name": "Takudzwa Mwale",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Building",
+      "top_student": false
+    },
+    {
+      "name": "Rufaro Mumba",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Computer Science",
+      "top_student": false
+    },
+    {
+      "name": "Nokuthula Mabhena",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Agriculture",
+      "top_student": false
+    },
+    {
+      "name": "Sekai Murehwa",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Food",
+      "top_student": false
+    },
+    {
+      "name": "Mufaro Sithole",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Musical Entertainment",
+      "top_student": false
+    },
+    {
+      "name": "Tinotenda Mutasa",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Building",
+      "top_student": false
+    },
+    {
+      "name": "Panashe Marufu",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Computer Science",
+      "top_student": false
+    },
+    {
+      "name": "Rutendo Mapfumo",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Agriculture",
+      "top_student": false
+    },
+    {
+      "name": "Sibusiso Bhebhe",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Food",
+      "top_student": false
+    },
+    {
+      "name": "Thabo Moyo",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Musical Entertainment",
+      "top_student": false
+    },
+    {
+      "name": "Lindiwe Ndlovu",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Building",
+      "top_student": false
+    },
+    {
+      "name": "Dumisani Ncube",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Computer Science",
+      "top_student": false
+    },
+    {
+      "name": "Buhle Nkomo",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Agriculture",
+      "top_student": false
+    },
+    {
+      "name": "Mpumelelo Khumalo",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Food",
+      "top_student": false
+    },
+    {
+      "name": "Njabulo Sibanda",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Musical Entertainment",
+      "top_student": false
+    },
+    {
+      "name": "Nomsa Dube",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Building",
+      "top_student": false
+    },
+    {
+      "name": "Zenzo Mabhena",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Computer Science",
+      "top_student": false
+    },
+    {
+      "name": "Thembi Mpofu",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Agriculture",
+      "top_student": false
+    },
+    {
+      "name": "Siphiwe Nyathi",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Food",
+      "top_student": false
+    },
+    {
+      "name": "Jabulani Bhebhe",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Musical Entertainment",
+      "top_student": false
+    },
+    {
+      "name": "Ayanda Mhlanga",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Building",
+      "top_student": false
+    },
+    {
+      "name": "Khanyisile Mwale",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Computer Science",
+      "top_student": false
+    },
+    {
+      "name": "Bongani Phiri",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Agriculture",
+      "top_student": false
+    },
+    {
+      "name": "Sizwe Banda",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Food",
+      "top_student": false
+    },
+    {
+      "name": "Mthabisi Tembo",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Musical Entertainment",
+      "top_student": false
+    },
+    {
+      "name": "Nothando Sithole",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Building",
+      "top_student": false
+    },
+    {
+      "name": "Lwazi Zhou",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Computer Science",
+      "top_student": false
+    },
+    {
+      "name": "Gugu Hove",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Agriculture",
+      "top_student": false
+    },
+    {
+      "name": "Andile Gumbo",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Food",
+      "top_student": false
+    },
+    {
+      "name": "Thandeka Mhere",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Musical Entertainment",
+      "top_student": false
+    },
+    {
+      "name": "Siyabonga Macharia",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Building",
+      "top_student": false
+    },
+    {
+      "name": "Bandile Chiwenga",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Computer Science",
+      "top_student": false
+    },
+    {
+      "name": "Zanele Mumba",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Agriculture",
+      "top_student": false
+    },
+    {
+      "name": "Thulani Murehwa",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Food",
+      "top_student": false
+    },
+    {
+      "name": "Njabulo Mutasa",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Musical Entertainment",
+      "top_student": false
+    },
+    {
+      "name": "Siphokazi Marufu",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Building",
+      "top_student": false
+    },
+    {
+      "name": "Mlungisi Mapfumo",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Computer Science",
+      "top_student": false
+    },
+    {
+      "name": "Thandiwe Moyo",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Agriculture",
+      "top_student": false
+    },
+    {
+      "name": "Melusi Ndlovu",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Food",
+      "top_student": false
+    },
+    {
+      "name": "Busisiwe Ncube",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Musical Entertainment",
+      "top_student": false
+    },
+    {
+      "name": "Simphiwe Mpofu",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Building",
+      "top_student": false
+    },
+    {
+      "name": "Nkosana Dube",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Computer Science",
+      "top_student": false
+    },
+    {
+      "name": "Lungile Tembo",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Agriculture",
+      "top_student": false
+    },
+    {
+      "name": "Zinhle Nyathi",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Food",
+      "top_student": false
+    },
+    {
+      "name": "Kwanele Sibanda",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Musical Entertainment",
+      "top_student": false
+    },
+    {
+      "name": "Sinethemba Khumalo",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Building",
+      "top_student": false
+    },
+    {
+      "name": "Vusumuzi Hove",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Computer Science",
+      "top_student": false
+    },
+    {
+      "name": "Nokwanda Gumbo",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Agriculture",
+      "top_student": false
+    },
+    {
+      "name": "Sithembile Mhere",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Food",
+      "top_student": false
+    },
+    {
+      "name": "Mcebisi Zhou",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Musical Entertainment",
+      "top_student": false
+    },
+    {
+      "name": "Thabani Macharia",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Building",
+      "top_student": false
+    },
+    {
+      "name": "Nonhlanhla Chiwenga",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Computer Science",
+      "top_student": false
+    },
+    {
+      "name": "Bhekizizwe Nkomo",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Agriculture",
+      "top_student": false
+    },
+    {
+      "name": "Njabulo Mhlanga",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Food",
+      "top_student": false
+    },
+    {
+      "name": "Siphesihle Mwale",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Musical Entertainment",
+      "top_student": "Building"
+    },
+    {
+      "name": "Mthunzi Phiri",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Building",
+      "top_student": false
+    },
+    {
+      "name": "Luyanda Banda",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Computer Science",
+      "top_student": false
+    },
+    {
+      "name": "Thandolethu Tembo",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Agriculture",
+      "top_student": false
+    },
+    {
+      "name": "Njabulo Sithole",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Food",
+      "top_student": false
+    },
+    {
+      "name": "Siyabonga Mumba",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Musical Entertainment",
+      "top_student": false
+    },
+    {
+      "name": "Bandile Murehwa",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Building",
+      "top_student": false
+    },
+    {
+      "name": "Zinhle Mutasa",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Computer Science",
+      "top_student": false
+    },
+    {
+      "name": "Kwanele Marufu",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Agriculture",
+      "top_student": false
+    },
+    {
+      "name": "Sinethemba Mapfumo",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Food",
+      "top_student": false
+    },
+    {
+      "name": "Vusumuzi Moyo",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Musical Entertainment",
+      "top_student": false
+    },
+    {
+      "name": "Nokwanda Ndlovu",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Building",
+      "top_student": false
+    },
+    {
+      "name": "Sithembile Ncube",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Computer Science",
+      "top_student": false
+    },
+    {
+      "name": "Mcebisi Mpofu",
+      "class": "4A",
+      "session": "November 2026",
+      "practical_subject": "Agriculture",
+      "top_student": false
+    },
+    {
+      "name": "Thabani Dube",
+      "class": "4B",
+      "session": "November 2026",
+      "practical_subject": "Food",
+      "top_student": false
+    },
+    {
+      "name": "Nonhlanhla Tembo",
+      "class": "4C",
+      "session": "November 2026",
+      "practical_subject": "Musical Entertainment",
+      "top_student": false
     }
   ],
   "subjects": [
