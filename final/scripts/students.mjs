@@ -1,6 +1,7 @@
 const filePath = "data/students.json";
 const studentContainer = document.querySelector("#candidates");
 const topstudentContainer = document.querySelector(".track");
+const classMatesContainer = document.querySelector(".class-mates");
 
 export async function getStudents() {
     const response = await fetch(filePath);
@@ -60,7 +61,7 @@ export async function allStudents() {
     const allStudents = await getStudents();
 
     const students = allStudents.students;
-
+    if(!studentContainer) return;
     displayStudents(students, studentContainer,);
 }
 
@@ -71,5 +72,17 @@ export async function topStudents() {
 
     const topStudents = students.filter(student => student.top_student != false);
 
+    if(!topstudentContainer) return;
+
     displayStudents(topStudents, topstudentContainer, true);
+}
+
+export async function classMates() {
+    const allStudents = await getStudents();
+
+    const students = allStudents.students;
+
+    const classMates = students.filter(student => student.class === "4A");
+    if(!classMatesContainer) return;
+    displayStudents(classMates, classMatesContainer);
 }

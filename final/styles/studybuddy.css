@@ -37,6 +37,7 @@ header img {
 #link-to-everyone {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #23589e;
     opacity: .97;
     color: white;
@@ -57,6 +58,7 @@ footer{
     text-align: center;
     font-weight: bold;
     padding: 1rem;
+    margin-top: .5rem;
 }
 
 /*Index /////////////////////////////////////// */
@@ -67,6 +69,7 @@ footer{
 }
 .teachers-container{
     display: flex;
+    flex-direction: row;
     gap: 1rem;
     justify-content: space-around;
 }
