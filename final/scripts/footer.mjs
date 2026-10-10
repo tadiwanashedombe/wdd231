@@ -1,2 +1,2 @@
 export const footer = document.querySelector('#footer');
-footer.innerHTML = `&copy; ${new Date().getFullYear()} StudyBuddy`;
+footer.innerHTML = `&copy; &middot; ${new Date().getFullYear()} &middot; StudyBuddy`;

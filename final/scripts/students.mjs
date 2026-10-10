@@ -2,6 +2,12 @@ const filePath = "data/students.json";
 const studentContainer = document.querySelector("#candidates");
 const topstudentContainer = document.querySelector(".track");
 const classMatesContainer = document.querySelector(".class-mates");
+const greeting = document.querySelector("#hello-name");
+
+const name = sessionStorage.getItem("name");
+const studentClass = sessionStorage.getItem("class");
+
+greeting.innerHTML = `Hello, ${name}`;
 
 export async function getStudents() {
     const response = await fetch(filePath);
@@ -82,7 +88,7 @@ export async function classMates() {
 
     const students = allStudents.students;
 
-    const classMates = students.filter(student => student.class === "4A");
+    const classMates = students.filter(student => student.class === studentClass);
     if(!classMatesContainer) return;
     displayStudents(classMates, classMatesContainer);
 }
