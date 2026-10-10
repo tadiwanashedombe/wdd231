@@ -6,15 +6,113 @@
 
 body {
     background-color: #ededed;
-    min-height: 100dvh;
+    font-family: serif
 }
 
 main {
-    padding: 0 .7rem;
+    min-height: 100dvh;
 }
 
-/*Everyone /////////////////////////////////////// */
+header,
+footer {
+    background-color: #C0C0C0;
+    font-family: sans-serif;
+}
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    border-radius: 5px;
+}
+
+#link-to-everyone {
+    display: flex;
+    align-items: center;
+    background-color: #23589e;
+    opacity: .97;
+    color: white;
+    padding: 1rem;
+    border-radius: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    position: fixed;
+    top:70px;
+    right: 18px;
+    z-index: 1000;
+}
+#everyone,#teachers{
+    padding: 0 .6rem;
+}
+footer{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+/*Index /////////////////////////////////////// */
+.hero img {
+    margin-top: .1rem;
+    width: 100%;
+    height: auto;
+}
+.teachers-container{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+}
+.teacher{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .4rem 0;
+    position: relative;
+}
+.teacher img{
+    border-radius: 5px 40px;
+}
+.teacher img:hover{
+    transform: scale(1.03);
+    border-radius: 0;
+    z-index: 100;
+}
+.teacher-details{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    padding: .3rem 0;
+    background-color: #00000089;
+    color: white;
+    border-bottom-left-radius: 40px;
+}
+#teacher-name,#teacher-class{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.teacher-stats{
+    padding: .3rem;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+
+/*Everyone /////////////////////////////////////// */
+#everyone{
+    margin-top: 1.4rem;
+}
 .top-candidates {
     overflow: hidden;
     padding: 1rem 0 1.7rem 0;
@@ -36,11 +134,16 @@ main {
 }
 
 @keyframes slide {
-    0%   { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
 }
 
-.track p{
+.track p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,6 +151,7 @@ main {
     font-weight: bolder;
     font-family: sans-serif;
 }
+
 .candidates {
     display: flex;
     flex-direction: row;
@@ -60,8 +164,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #D8E2F9;
-    padding: .7rem .7rem 4rem .5rem;
-    position: relative;
+    padding: .7rem .7rem .7rem .5rem;
     min-width: 18rem;
     border-radius: 12px;
 }

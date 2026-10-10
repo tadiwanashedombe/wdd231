@@ -10,15 +10,65 @@
     <meta name="author" content="Tadiwanashe Dombe">
 
     <link rel="stylesheet" href="styles/studybuddy.css">
+    <link rel="stylesheet" href="styles/studybuddy-small.css">
     <script type="module" src="scripts/studybuddy.js"></script>
 </head>
 
 <body>
+    <a href="everyone.html" id="link-to-everyone">
+        <img src="images/everyone.svg" alt="everyone svg" width="20" height="20"> View all candidates
+    </a>
     <header>
-        <h1>StudyBuddy</h1>
+        <div class="logo">
+            <img src="images/logo.webp" alt="study buddy logo" width="60" width="60">
+            <h1 class="logo-text">StudyBuddy</h1>
+        </div>
+        <span id="hello-name">Hello, name</span>
     </header>
     <main>
+        <section class="hero">
+            <img src="images/hero.webp" alt="StudyBuddy Banner" width="1000" height="600" fetchpriority="high">
+        </section>
+        <section id="teachers">
+            <h2>This Year's Candidates Teachers</h2>
+            <div class="teachers-container">
+                <div class="teacher">
+                    <img src="images/4a-teacher.webp" alt="mrs Chipetu" height="400" width="250" loading="lazy">
+                    <div class="teacher-details">
+                        <p id="teacher-name">Mrs Chipetu</p>
+                        <p id="teacher-class">4A</p>
+                        <button id="teacher-4a" class="teacher-stats">View Statistics</button>
+                    </div>
+                </div>
+                <div class="teacher">
+                    <img src="images/4b-teacher.webp" alt="mrs Chipetu" height="400" width="250" loading="lazy">
+                    <div class="teacher-details">
+                        <p id="teacher-name">Mrs Sloane</p>
+                        <p id="teacher-class">4B</p>
+                        <button id="teacher-4b" class="teacher-stats">View Statistics</button>
+                    </div>
+                </div>
+                <div class="teacher">
+                    <img src="images/4c-teacher.webp" alt="mrs Chipetu" height="400" width="250" loading="lazy">
+                    <div class="teacher-details">
+                        <p id="teacher-name">Mr Einstein</p>
+                        <p id="teacher-class">4C</p>
+                        <button class="teacher-stats">View Statistics</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Top students</h2>
+            <div class="top-candidates">
+                <div class="track  candidates"></div>
+            </div>
+        </section>
+
     </main>
-    <footer></footer>
+    <footer>
+        <span id="footer"> </span>
+    </footer>
 </body>
+
 </html>

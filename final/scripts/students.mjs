@@ -33,13 +33,6 @@ function displayStudents(students, container, showTopSubject = false) {
 
         const practicalSubject = document.createElement('p');
         practicalSubject.innerHTML = `<strong>Practical Subject :</strong> ${student.practical_subject}`;
-
-
-
-        const moreDetails = document.createElement("button");
-        moreDetails.setAttribute("class", "more-details");
-        moreDetails.textContent = "View Registered Subjects";
-
         
         details.appendChild(studentClass);
         details.appendChild(registeredSession);
@@ -48,7 +41,6 @@ function displayStudents(students, container, showTopSubject = false) {
         
         candidate.appendChild(candidateH3);
         candidate.appendChild(details);
-        candidate.appendChild(moreDetails);
         
         if (showTopSubject && student.top_student) {
             const topSubject = document.createElement("p");
@@ -58,7 +50,6 @@ function displayStudents(students, container, showTopSubject = false) {
             topSubject.innerHTML = student.top_student;
 
             details.replaceWith(topSubject)
-            candidate.removeChild(moreDetails)
         }
 
         container.appendChild(candidate)
