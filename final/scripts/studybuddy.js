@@ -1,3 +1,4 @@
-import { allStudents } from "./students.mjs";
+import { allStudents,topStudents } from "./students.mjs";
 
 allStudents();
+topStudents();

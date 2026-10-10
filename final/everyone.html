@@ -10,6 +10,7 @@
     <meta name="author" content="Tadiwanashe Dombe">
 
     <link rel="stylesheet" href="styles/studybuddy.css">
+    <link rel="stylesheet" href="styles/studybuddy-small.css">    
     <script type="module" src="scripts/studybuddy.js"></script>
 </head>
 
@@ -19,12 +20,15 @@
         <span class="hello-name">Hello, Sean</span>
     </header>
     <main>
-        <section class="top-students">
+        <section>
             <h2>Top students</h2>
+            <div class="top-candidates">
+                <div class="track  candidates"></div>
+            </div>
         </section>
         <section>
             <h2>Registered Candidates</h2>
-            <div class="candidates">
+            <div class="candidates" id="candidates">
             </div>
         </section>
         <section class="teachers">
@@ -33,5 +37,4 @@
     </main>
     <footer></footer>
 </body>
-
 </html>
