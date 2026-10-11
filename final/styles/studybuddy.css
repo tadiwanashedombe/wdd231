@@ -33,7 +33,8 @@ header {
 header img {
     border-radius: 5px;
 }
-h2{
+
+h2 {
     font-size: 2em;
     padding: 1rem 0 .5rem 0;
 }
@@ -50,14 +51,17 @@ h2{
     font-weight: bold;
     text-decoration: none;
     position: fixed;
-    top:70px;
+    top: 70px;
     right: 18px;
     z-index: 1000;
 }
-#everyone,#teachers{
+
+#everyone,
+#teachers {
     padding: 0 .6rem;
 }
-footer{
+
+footer {
     font-size: 2rem;
     text-align: center;
     font-weight: bold;
@@ -71,13 +75,15 @@ footer{
     width: 100%;
     height: auto;
 }
-.teachers-container{
+
+.teachers-container {
     display: flex;
     flex-direction: row;
     gap: 1rem;
     justify-content: space-around;
 }
-.teacher{
+
+.teacher {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,15 +91,18 @@ footer{
     padding: .4rem 0;
     position: relative;
 }
-.teacher img{
+
+.teacher img {
     border-radius: 5px 40px;
 }
-.teacher img:hover{
+
+.teacher img:hover {
     transform: scale(1.03);
     border-radius: 0;
     z-index: 100;
 }
-.teacher-details{
+
+.teacher-details {
     position: absolute;
     bottom: 5px;
     width: 100%;
@@ -103,27 +112,80 @@ footer{
     color: white;
     border-bottom-left-radius: 40px;
 }
-#teacher-name,#teacher-class{
+
+#teacher-name,
+#teacher-class {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;
     font-weight: bold;
 }
-.teacher-stats{
+
+.teacher-stats {
     padding: .3rem;
     font-size: 1rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
 }
 
-.teacher-stats:hover{
+.teacher-stats:hover {
     box-shadow: 1px 0 17px white;
 
 }
+dialog {
+    margin: auto;       
+    position: fixed;
+    inset: 0;
+}
+.stats-modals {
+    position: relative;
+    padding: 1rem;
+    border: 0;
+    width: 90%;
+    max-width: 32rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
 
+}
+
+.modal-close {
+    background-color: transparent;
+    border: 0;
+    font-size: 2.4rem;
+    position: absolute;
+    top: 1px;
+    right: 4px;
+    cursor: pointer;
+}
+
+.modal-content {
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+    text-wrap: pretty;
+}
+
+.modal-subjects {
+    margin: 0;
+    padding: .75rem 1rem;
+    background: #eef3fb;
+    border-left: 4px solid #23589e;
+    border-radius: 6px;
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
+.modal-subjects strong {
+    color: #23589e;
+}
+
+.stats-modals::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+}
 /*Everyone /////////////////////////////////////// */
-#everyone{
+#everyone {
     margin-top: 1.4rem;
 }
+
 .top-candidates {
     overflow: hidden;
     padding: 1rem 0 1.7rem 0;
@@ -210,13 +272,15 @@ footer{
     background-color: rgb(61, 61, 188);
     color: white;
 }
+
 /*Login /////////////////////////////////////// */
-.form{
+.form {
     display: flex;
     justify-content: center;
     margin-top: .7rem;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
     max-width: 20rem;
@@ -224,7 +288,9 @@ form{
     border: 1px solid #888888;
     border-radius: 15px;
 }
-input,select{
+
+input,
+select {
     width: 100%;
     height: 2.4rem;
     padding: .4rem;
@@ -232,18 +298,22 @@ input,select{
     border: 0;
     background-color: #ffff;
 }
-input,select:focus{
+
+input,
+select:focus {
     outline-color: #23589e;
 }
-label{
+
+label {
     font-weight: 700;
     font-size: larger;
 }
-#loginForm span{
+
+#loginForm span {
     margin: .9rem 0;
 }
 
-.login-button{
+.login-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -257,7 +327,8 @@ label{
     border-radius: 12px;
     font-size: 1.5rem;
 }
-.login-button:hover{
+
+.login-button:hover {
     cursor: pointer;
     box-shadow: 1px 0 10px #183c6b;
 }
