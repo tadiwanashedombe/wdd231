@@ -214,7 +214,7 @@ dialog {
     flex-direction: row;
     gap: 1rem;
     width: max-content;
-    animation: slide 30s linear infinite;
+    animation: slide 60s linear infinite;
 }
 
 .top-candidates .track:hover {

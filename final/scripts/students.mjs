@@ -10,10 +10,16 @@ const studentClass = sessionStorage.getItem("class");
 greeting.innerHTML = `Hello, ${name}`;
 
 export async function getStudents() {
-    const response = await fetch(filePath);
-    const data = await response.json();
-    // console.log(data);
-    return data;
+    try {
+        const response = await fetch(filePath);
+        if (!response.ok) {
+            throw new Error(`Request failed with status ${response.status}`);
+        }
+        return await response.json();
+    } catch (error) {
+        console.error("Unable to load student data:", error);
+        return null;
+    }
 }
 
 function displayStudents(students, container, showTopSubject = false) {
@@ -81,6 +87,8 @@ export async function topStudents() {
     if(!topstudentContainer) return;
 
     displayStudents(topStudents, topstudentContainer, true);
+    displayStudents(topStudents, topstudentContainer, true);
+
 }
 
 export async function classMates() {
