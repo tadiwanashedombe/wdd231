@@ -1,6 +1,6 @@
 @media only screen and (max-width:640px) {
 
-    header{
+    header {
         display: grid;
     }
 
@@ -14,5 +14,13 @@
 
     .teachers-container {
         display: grid;
+    }
+}
+
+@media only screen and (max-width:1024px) and (min-width:641px) {
+    .teacher img {
+        width: 230px;
+        height: auto;
+        border-radius: 5px 40px;
     }
 }

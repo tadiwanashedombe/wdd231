@@ -29,7 +29,11 @@ header {
     display: flex;
     align-items: center;
 }
-
+#hello-name{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    margin-right: .4rem;
+}
 header img {
     border-radius: 5px;
 }
